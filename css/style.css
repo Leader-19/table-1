@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+table {
+    font-family: sans-serif;
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+td ,th{
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+th{
+    font-weight: bold;
+    background: green;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: wheat;
+}
+tr:hover {
+    background-color: lightslategray;
+}
